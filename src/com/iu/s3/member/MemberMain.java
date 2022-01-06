@@ -6,10 +6,11 @@ public class MemberMain {
 
 		Member member = new Member();
 		member.setAge(40);
-		member.setKi(100);
-
+		member.setEmail("test@gmail.com");
+		
+		String email = member.getEmail();
+		System.out.println(member.getEmail());
 		System.out.println(member.getAge());
-		System.out.println(member.getKi());
 
 	}
 
